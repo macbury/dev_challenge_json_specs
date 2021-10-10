@@ -1,0 +1,214 @@
+{
+  "version": "[UPDATED]",
+  "tool": {
+    "version": "2.1"
+  },
+  "id": "BMI",
+  "language": "EN",
+  "result": {
+    "resultRanges": {
+      "bmi": {
+        "title": "BMI",
+        "activityLevel": "gray",
+        "displayFormat": "–"
+      },
+      "red1": {
+        "title": "Severely underweight",
+        "activityLevel": "red"
+      },
+      "orange1": {
+        "title": "Moderately underweight",
+        "activityLevel": "orange"
+      },
+      "yellow1": {
+        "title": "Mildly underweight",
+        "activityLevel": "yellow"
+      },
+      "green1": {
+        "title": "Normal weight",
+        "activityLevel": "green"
+      },
+      "yellow2": {
+        "title": "Overweight",
+        "activityLevel": "yellow"
+      },
+      "orange2": {
+        "title": "Obese class I",
+        "activityLevel": "orange"
+      },
+      "red2": {
+        "title": "Obese class II",
+        "activityLevel": "red"
+      },
+      "deepRed2": {
+        "title": "Obese class III",
+        "activityLevel": "deepRed"
+      }
+    }
+  },
+  "sections": {
+    "questions": {
+      "weight": {
+        "type": "number",
+        "title": "Weight",
+        "unitID": "weightKg",
+        "units": {
+          "kg": {
+            "title": "kg"
+          }
+        }
+      },
+      "height": {
+        "type": "number",
+        "title": "Height",
+        "unitID": "heightCM",
+        "units": {
+          "cm": {
+            "title": "cm"
+          }
+        }
+      }
+    }
+  },
+  "infoSections": {
+    "instructionsForUse": {
+      "headerTitle": "Instructions for use",
+      "footerTitle": "Version: 8. 1. 2020",
+      "infoItems": {
+        "instructionsForUse1": {
+          "type": "text",
+          "title": "<b>General description</b><br>Body mass index (BMI) is the most commonly used anthropometric method to measure obesity, which is calculated as an individual’s weight in kilograms divided by height in meters squared."
+        },
+        "instructionsForUse2": {
+          "type": "text",
+          "title": "<b>Intended users</b><br>Healthcare professionals"
+        },
+        "instructionsForUse3": {
+          "type": "text",
+          "title": "<b>Intended use</b><br>Calculate body mass index (BMI)"
+        },
+        "instructionsForUse4": {
+          "type": "text",
+          "title": "<b>Intended patient population</b><br>Adults"
+        },
+        "instructionsForUse5": {
+          "type": "text",
+          "title": "<b>Medical conditions to be diagnosed/treated/monitored</b><br>Obesity"
+        },
+        "instructionsForUse6": {
+          "type": "text",
+          "title": "<b>Patient selection criteria</b><br>None"
+        },
+        "instructionsForUse7": {
+          "type": "text",
+          "title": "<b>Indications</b><br>None"
+        },
+        "instructionsForUse8": {
+          "type": "text",
+          "title": "<b>Contraindications</b><br>None"
+        }
+      }
+    },
+    "warnings": {
+      "headerTitle": "Warnings",
+      "infoItems": {
+        "clinicalJudgement": {
+          "type": "text",
+          "title": "<b>Tools do not replace clinical judgement</b><br>Tools cannot replace clinical judgement and must not be the sole factor for making decisions. Only healthcare professionals considering features of an individual patient, beyond those represented in the tools, in addition to extraneous factors (such as local prevalence of conditions that are on the differential diagnosis) can make decisions for the management of an individual patient."
+        },
+        "correctInput": {
+          "type": "text",
+          "title": "<b>Tools depend on you inputting the correct data</b><br>Tools depends on the accuracy of the information entered. You are always responsible for verifying the result and using your best judgement."
+        },
+        "recommendedUpdates": {
+          "type": "text",
+          "title": "<b>Recommended updates</b><br>To ensure safe and optimized running of the application, it is recommended that you install software updates as soon as they are available. If you have not enabled automatic updates for this application, then please update the application from the alert in the news feed or an alert dialog inside the application."
+        }
+      }
+    },
+    "referenceValues": {
+      "headerTitle": "Reference values",
+      "infoItems": {
+        "referenceValues1": {
+          "type": "score",
+          "title": "Severely underweight",
+          "pointRange": "&lt; 16",
+          "activityLevel": "red"
+        },
+        "referenceValues2": {
+          "type": "score",
+          "title": "Moderately underweight",
+          "pointRange": "16-16,99",
+          "activityLevel": "orange"
+        },
+        "referenceValues3": {
+          "type": "score",
+          "title": "Mildly underweight",
+          "pointRange": "17-18,49",
+          "activityLevel": "yellow"
+        },
+        "referenceValues4": {
+          "type": "score",
+          "title": "Normal weight",
+          "pointRange": "18,5-24,99",
+          "activityLevel": "green"
+        },
+        "referenceValues5": {
+          "type": "score",
+          "title": "Overweight",
+          "pointRange": "25-29,99",
+          "activityLevel": "yellow"
+        },
+        "referenceValues6": {
+          "type": "score",
+          "title": "Obese class I",
+          "pointRange": "30-34,99",
+          "activityLevel": "orange"
+        },
+        "referenceValues7": {
+          "type": "score",
+          "title": "Obese class II",
+          "pointRange": "35-39,99",
+          "activityLevel": "red"
+        },
+        "referenceValues8": {
+          "type": "score",
+          "title": "Obese class III",
+          "pointRange": "≥ 40",
+          "activityLevel": "deepRed"
+        }
+      }
+    },
+    "intro": {
+      "headerTitle": "Explanation",
+      "infoItems": {
+        "instructions1": {
+          "type": "text",
+          "title": "Body Mass Index (BMI) is a simple index of weight-for-height that is commonly used to classify underweight, overweight and obesity in adults. It is defined as the weight in kilograms divided by the square of the height in metres (kg/m²)."
+        }
+      }
+    },
+    "formula": {
+      "headerTitle": "Formula",
+      "infoItems": {
+        "formula1": {
+          "type": "text",
+          "title": "BMI = weight / height²"
+        }
+      }
+    },
+    "references": {
+      "headerTitle": "References",
+      "infoItems": {
+        "reference1": {
+          "type": "text",
+          "title": "Keys, Ancel; Fidanza, Flaminio; Karvonen, Martti J.; Kimura, Noboru; Taylor, Henry L. (1972). \"Indices of relative weight and obesity\". Journal of Chronic Diseases 25 (6–7): 329–43."
+        },
+        "reference2": {
+          "type": "text",
+          "title": "[UPDATED]"
+        }
+      }
+    }
+  }
+}
